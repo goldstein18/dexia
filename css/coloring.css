@@ -283,3 +283,20 @@ background-image:linear-gradient(to right, var(--primary-color), var(--primary-c
 }
 
 }
+
+/* Team banner responsivo: frame30 móvil, frame30d desktop */
+section.team-section-no-padding {
+    padding-top: 0;
+}
+.team-banner-wrapper {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.team-banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
